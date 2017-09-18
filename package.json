@@ -1,0 +1,40 @@
+{
+  "name": "promo3-ng-first",
+  "version": "1.0.0",
+  "description": "A Step by Step Angular4 project from scratch for learning purpose",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplon-lyon/promo3-ng-first.git"
+  },
+  "keywords": [
+    "Angular",
+    "Simplon.co"
+  ],
+  "author": "Simplon",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/simplon-lyon/promo3-ng-first/issues"
+  },
+  "homepage": "https://github.com/simplon-lyon/promo3-ng-first#readme",
+  "dependencies": {
+    "@angular/common": "^4.4.1",
+    "@angular/compiler": "^4.4.1",
+    "@angular/compiler-cli": "^4.4.1",
+    "@angular/core": "^4.4.1",
+    "@angular/platform-browser": "^4.4.1",
+    "@angular/platform-browser-dynamic": "^4.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.17"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  }
+}
