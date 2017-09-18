@@ -22,5 +22,9 @@ import { Component } from "@angular/core";
     template: '<h1>{{message}}</h1>'
 })
 export class AppComponent {
+    /*
+    public ou private, le template aura accès aux
+    propriétés du Component auquel il est lié
+    */
     private message:string = 'un truc dedans';
 }

@@ -22,6 +22,8 @@ import { AppComponent } from './app.component';
     Le bootstrap doit contenir le Component racine de
     l'application, le point de départ en gros
     */
-    bootstrap:[AppComponent]
+    bootstrap:[
+        AppComponent
+    ]
 })
 export class AppModule {}
